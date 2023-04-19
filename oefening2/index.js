@@ -31,7 +31,7 @@ const weatherApp = {
       <li>Average tempature: ${weatherData.main.temp} °C</li>
       <li>Min tempature: ${weatherData.main.temp_min} °C</li>
       <li>Max tempature: ${weatherData.main.temp_max} °C</li>
-      <li>Description: ${weatherData.weather.description}</li>
+      <li>Description: ${weatherData.weather[0].description}</li>
     </ul>`
 		);
 	},
